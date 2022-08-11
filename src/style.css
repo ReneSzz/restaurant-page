@@ -5,6 +5,7 @@
     --main-color: black;
     --accent-color: #2C3333;
     --secondary-color: white;
+    overflow-x: hidden;
 }
 
 body {
@@ -48,8 +49,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
+    color:#fff;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
     color: var(--secondary-color);
     text-align: center;
     font-size: 1.2rem;
@@ -58,7 +59,7 @@ body {
 
  .tab:hover
 {
-    transform: scale(1.01);
+    transform: scale(1.03);
    cursor: pointer;
 }
 

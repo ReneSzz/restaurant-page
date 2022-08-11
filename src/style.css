@@ -2,9 +2,18 @@
 
 :root{ 
     font-family: 'Quicksand', sans-serif;
+    --main-color: black;
+    --accent-color: #2C3333;
+    --secondary-color: white;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--main-color);
     padding: 0;
     margin: 0;
     height: 100%;
@@ -12,8 +21,10 @@ body {
 }
 
 .content{ 
-    height: 100%;
-    width: 100%;
+    margin-top: 3%;
+    width: 60vw;
+    height: 100vh;
+    background-color: var(--accent-color);
 }
 
 
@@ -23,7 +34,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 10vh;
-    background-color: #3D3C42;
+    background-color: black;
 }
 
 #nav {
@@ -37,11 +48,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 8rem;
-    height: 3rem;
-    background-color: white;
+    
+    
+    color: var(--secondary-color);
     text-align: center;
-    border-radius: 12px;
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -56,6 +66,7 @@ body {
 .tab:active
 {
     transform: scale(0.99);
+   
    
     
 }

@@ -1,14 +1,15 @@
 import './style.css'; 
 import {homeCreate} from './home.js';
-import {removeFromContainer} from './menu';
+import {menuCreate, removeFromContainer} from './menu';
 const homeButton = document.getElementById('home');
 const header = document.createElement('h1');
 const menuButton = document.getElementById('menu');
 homeCreate();
-removeFromContainer();
+// removeFromContainer();
 
 
 homeButton.addEventListener('click', function(e) {
+    removeFromContainer();
     const header = document.createElement('h1');
     homeCreate();
    
@@ -16,7 +17,8 @@ homeButton.addEventListener('click', function(e) {
 });
 
 menuButton.addEventListener('click', function(e) {
-  
+    
     removeFromContainer();
+    menuCreate();
     
 });

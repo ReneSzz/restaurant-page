@@ -19,6 +19,7 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
+    background-image: url(./background.jpg);
 }
 #header > h4 {
     color: white;
@@ -28,9 +29,9 @@ body {
     position:  relative;
     margin-top: 3%;
     padding: 2%;
-    width: 70vw;
-    height: 75vh;
-    background-color: var(--main-color);
+    width: 40vw;
+    height: 45vh;
+    /* background-color: var(--main-color); */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -45,14 +46,15 @@ body {
     /* align-items: center; */
     width: 100vw;
     height: 10vh;
-    background-color: black;
+    /* background-color: white; */
+   
 }
 
 #nav {
     display: flex;
     /* justify-content: space-between; */
     gap: 3rem;
-    margin-right: 27.2%;
+    margin-right: 27%;
     
 }
 
@@ -63,9 +65,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#fff;
+    color: white;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
@@ -87,6 +89,6 @@ body {
 }
 
 .images {
-    width: 30vw;
-    height: 30vh;
+    width: 15vw;
+    height: 15vh;
 }

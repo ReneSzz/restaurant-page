@@ -1,3 +1,5 @@
 import './style.css'; 
-
-console.log("Swag");
+import {homeCreate} from './home.js';
+import {removeFromContainer} from './menu';
+homeCreate();
+removeFromContainer();

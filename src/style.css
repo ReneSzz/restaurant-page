@@ -21,11 +21,18 @@ body {
     width: 100%;
 }
 
-.content{ 
+#content{ 
     margin-top: 3%;
-    width: 60vw;
+    padding: 2%;
+    width: 70vw;
     height: 100vh;
     background-color: var(--accent-color);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
 }
 
 
@@ -70,4 +77,9 @@ body {
    
    
     
+}
+
+.images {
+    width: 30vw;
+    height: 30vh;
 }

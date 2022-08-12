@@ -12,6 +12,8 @@ container.removeChild(container.lastChild);
 }
 
 function menuCreate() { 
+container.style.flexDirection = "row";
+container.style.justifyContent = "space-evenly";
 const image1 = new Image();
 image1.src = Picture1 ;
 image1.classList.add('images');

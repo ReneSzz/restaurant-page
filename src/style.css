@@ -22,13 +22,14 @@ body {
 }
 
 #content{ 
+    position:  relative;
     margin-top: 3%;
     padding: 2%;
     width: 70vw;
-    height: 100vh;
+    height: 75vh;
     background-color: var(--accent-color);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 5px;
     text-align: center;
